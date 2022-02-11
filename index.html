@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style css conex-->
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!--Css Conex-->
+<link rel="stylesheet" href="style.css">
+    <title>Net Net</title>
+</head>
+<body>
+    <!--Menu de Navegacion-->
+	<header>
+		<div class="contenedor">
+			<h2 class="logo-net">Net Net</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Series</a>
+				<a href="#flecha-izquierda">Películas</a>
+				<a href="#">Mi lista</a>
+                <a href="#">Registro</a>
+
+			</nav>
+		</div>
+	</header>
+<!--Contenido Principal-->
+	<main>
+        <!--Banner-->
+		<div class="banner-inicial">
+			<div class="contenedor">
+				<h1 class="titulo">The Matrix Reloaded</h1>
+                <ul>
+                    <li> ° Surrealista</li>
+                    <li> ° Distopico</li>
+                    <li> ° Habil</li>
+                </ul>
+                <br>
+				<p class="descripcion">
+             Los tripulantes de la Nebuchadnezzar (Nabucodonosor) llegan al nivel de transmisión para entrar en Matrix y celebrar una reunión con capitanes de las otras naves
+				</p>
+                
+                <a href="detalle-movie.html" role="button" class="boton" style="text-decoration:none";><i class="fas fa-asterisk"></i>Mi Lista</a>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>información</button>
+			</div>
+		</div>
+        <!--Contenedor secundario-->
+		<div class="contenedor-two">
+			<div class="contenedor-two-controles">
+				<h3>Películas Recomendadas</h3>
+			</div>
+
+			<div class="contenedor-principal">
+				<!--Indicador Izquierdo-->
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="detalle-movie.html"><img src="image/1.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/2.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/3.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/4.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/5.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/6.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/7.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/8.jpg" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="image/9.jpg" alt=""></a>
+						</div>
+					</div>
+				</div>
+                <!--Indicador Derecha-->
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+	<!--Footer-->
+</div>
+<div class="footer">
+  <div class="footer-1">
+    <button class="footer-boton"><i class="fas fa-home"></i>Home</button>
+    <button class="footer-boton"><i class="fas fa-video"></i>Proximamente</button>
+    <button class="footer-boton"><i class="fas fa-search"></i>Buscar</button>
+    <button class="footer-boton"><i class="fas fa-download"></i>Descargas</button>
+    
+</div> 
+</div>
+<!--Js Conex-->
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>
