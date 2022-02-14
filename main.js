@@ -14,3 +14,6 @@ indicadorIzquierda.addEventListener('click', () => {
 
 });
 
+function myFunction() {
+	document.querySelector(".pelicula").style.border = "thick solid #0000FF";
+  }

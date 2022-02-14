@@ -8,3 +8,4 @@ console.log('titulo', peliculaLista);
 alert('Por favor dirigete a Mi Lista');
 
 });
+
